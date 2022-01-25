@@ -38,6 +38,7 @@ public class javaOutPutFormatting {
             }
 
             System.out.println("================================");
-
+        
+        leia.close();
     }
 }
