@@ -1,6 +1,8 @@
-# HackerRank - Java
+# HackerRank
 
-Códigos de desafios do HackerRank em Java.
+Códigos de desafios do HackerRank.
+* Java
+* SQL
 
 #
 
