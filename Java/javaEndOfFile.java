@@ -1,17 +1,21 @@
 import java.util.*;
 
 public class javaEndOfFile {
-    public static void main(String[] args) {
-        
-        Scanner leia = new Scanner(System.in);
-        
-        String n;
+	public static void main(String[] args) {
 
-        for (int i = 1; i <= 3; i++) {
-            n = leia.nextLine();
-            System.out.printf("%d %s\n", i, n);
-        }
+		Scanner leia = new Scanner(System.in);
 
-        leia.close();
-    }
+		int linha = 1;
+
+		while (true) {
+			String line = leia.nextLine();
+			System.out.println(linha + " " + line);
+			linha++;
+                if (!leia.hasNext()) {
+                    break;
+                }
+		}
+
+		leia.close();
+	}
 }
