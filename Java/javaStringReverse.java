@@ -24,9 +24,9 @@ public class javaStringReverse {
         String R = new StringBuilder(A).reverse().toString();
 
         if (A.equals(R)) {
-            System.out.println("The word '"+A+"' is a palindrome!");
+            System.out.println("The word '"+A+"' is a palindrome!"); // The HackerRank Sample Output expected is "Yes"
         } else {
-            System.out.println("The word '"+A+"' is not a palindrome!");
+            System.out.println("The word '"+A+"' is not a palindrome!"); // The HackerRank Sample Output expected is "No"
         }
 
         leia.close();
